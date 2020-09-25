@@ -6,9 +6,9 @@ from features.logger import MyListener
 
 def browser_init(context, name):
 
-    context.driver = webdriver.Chrome(executable_path='drivers/chromedriver')
+    context.driver = webdriver.Chrome()
     # context.driver = webdriver.Safari()
-    # context.driver = webdriver.Firefox(executable_path='drivers/geckodriver')
+    # context.driver = webdriver.Firefox()
     # =====================================================================================
     # # ##### HEADLESS #####
     #
